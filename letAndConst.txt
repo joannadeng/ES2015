@@ -1,0 +1,17 @@
+- What is the difference between ***var*** and ***let***?
+var can be reassigned and redeclared, globe scope,can override build-in window method
+let can be reassigned but can't be redeclared, block scope, wont override existing method
+
+- What is the difference between **var** and ***const***?
+var can be reassigned and redeclared, globe scope,can override build-in window method
+const can't be reassigned or redeclared,but can change content, such as array and objects, block scope, wont override existing method
+
+- What is the difference between **let** and **const**?
+let can be reassigned but can't be redeclared
+const can't be reassigned or redeclared,but can change content, such as array and objects
+
+- What is hoisting?
+it's the way how JavaScript complier works
+var is globe scope, declaration exits before initialization,
+let and const are block scope, let can be declared first and initialized later,
+const has to be declared and initialized together.
